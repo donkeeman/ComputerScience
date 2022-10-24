@@ -3,35 +3,35 @@
 <table>
     <thead>
         <tr>
-            <td>TCP/IP 모델</td>
-            <td>OSI 모델</td>
+            <td align="center">TCP/IP 모델</td>
+            <td align="center">OSI 모델</td>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan="3">응용 계층</td>
-            <td>응용 계층</td>
+            <td rowspan="3" align="center">응용 계층</td>
+            <td align="center">응용 계층</td>
         </tr>
         <tr>
-            <td>표현 계층</td>
+            <td align="center">표현 계층</td>
         </tr>
         <tr>
-            <td>세션 계층</td>
+            <td align="center">세션 계층</td>
         </tr>
         <tr>
-            <td>전송 계층</td>
-            <td>전송 계층</td>
+            <td align="center">전송 계층</td>
+            <td align="center">전송 계층</td>
         </tr>
         <tr>
-            <td>인터넷 계층</td>
-            <td>네트워크 계층</td>
+            <td align="center">인터넷 계층</td>
+            <td align="center">네트워크 계층</td>
         </tr>
         <tr>
-            <td rowspan="2">네트워크 액세스 계층</td>
-            <td>데이터링크 계층</td>
+            <td rowspan="2" align="center">네트워크 액세스 계층</td>
+            <td align="center">데이터링크 계층</td>
         </tr>
         <tr>
-            <td>물리 계층</td>
+            <td align="center">물리 계층</td>
         </tr>
     </tbody>
 </table>
