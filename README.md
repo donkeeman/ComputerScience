@@ -15,3 +15,4 @@
 
 ### 운영체제 (OS)
 - [운영체제](./Operating_System/Operating_System.md)
+- [커널](./Operating_System/Kernel.md)
