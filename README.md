@@ -18,3 +18,4 @@
 - [커널](./Operating_System/Kernel.md)
 - [입출력 (I/O)](./Operating_System/Input_Output.md)
 - [인터럽트](./Operating_System/Interrupt.md)
+- [교착 상태](./Operating_System/Deadlock.md)
