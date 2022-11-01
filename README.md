@@ -4,6 +4,7 @@
 ## 목차
 - [네트워크](#네트워크)
 - [운영체제 (OS)](#운영체제-os)
+- [자료 구조](#자료-구조)
 
 ## 목록
 ### 네트워크
@@ -19,3 +20,6 @@
 - [입출력 (I/O)](./Operating_System/Input_Output.md)
 - [인터럽트](./Operating_System/Interrupt.md)
 - [교착 상태](./Operating_System/Deadlock.md)
+
+### 자료 구조
+- [배열](./Data_Structure/Array.md)
