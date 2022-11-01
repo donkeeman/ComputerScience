@@ -23,3 +23,4 @@
 
 ### 자료 구조
 - [배열](./Data_Structure/Array.md)
+- [리스트](./Data_Structure/List.md)
