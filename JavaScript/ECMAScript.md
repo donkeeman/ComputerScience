@@ -17,7 +17,7 @@
 - `...` 연산자를 이용한 **전개 구문** 추가
 - `for-of` 반복문 추가
 - 함수의 **인자**에 **기본값**을 지정하는 기능 추가
-- 그 외 `Array`, `String`, `Number`, `Math` 에 다양한 **메소드**들 추가
+- 그 외 `Array`, `String`, `Number`, `Math` 에 다양한 **메서드**들 추가
 
 ## 참고 사이트
 - https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
