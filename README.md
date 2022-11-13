@@ -7,6 +7,7 @@
 -   [네트워크](#네트워크)
 -   [운영체제 (OS)](#운영체제-os)
 -   [자료 구조](#자료-구조)
+-   [자바스크립트](#자바스크립트)
 
 ## 목록
 
@@ -17,6 +18,7 @@
 -   [HTTP와 HTTPS](./Network/HTTP_HTTPS.md)
 -   [월드 와이드 웹](./Network/World_Wide_Web.md)
 -   [웹의 동작 방식](./Network/How_the_Web_Works.md)
+-   [CORS](./Network/CORS.md)
 
 ### 운영체제 (OS)
 
