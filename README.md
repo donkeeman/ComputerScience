@@ -34,6 +34,7 @@
 -   [배열](./Data_Structure/Array.md)
 -   [리스트](./Data_Structure/List.md)
 -   [그래프](./Data_Structure/Graph.md)
+-   [트리](./Data_Structure/Tree.md)
 
 ### 자바스크립트
 
