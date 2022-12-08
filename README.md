@@ -37,6 +37,7 @@
 -   [트리](./Data_Structure/Tree.md)
 -   [이진 트리](./Data_Structure/Binary_Tree.md)
 -   [AVL 트리](./Data_Structure/AVL_Tree.md)
+-   [레드-블랙 트리](./Data_Structure/Red_Black_Tree.md)
 
 ### 자바스크립트
 
