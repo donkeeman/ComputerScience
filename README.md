@@ -36,6 +36,7 @@
 -   [그래프](./Data_Structure/Graph.md)
 -   [트리](./Data_Structure/Tree.md)
 -   [이진 트리](./Data_Structure/Binary_Tree.md)
+-   [AVL 트리](./Data_Structure/AVL_Tree.md)
 
 ### 자바스크립트
 
