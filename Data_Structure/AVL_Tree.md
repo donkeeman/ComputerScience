@@ -35,4 +35,5 @@
 - 요소 검색 ( **O(log N)** )
 
 ## 참고 사이트
+- https://www.geeksforgeeks.org/insertion-in-an-avl-tree/
 - https://www.programiz.com/dsa/avl-tree
