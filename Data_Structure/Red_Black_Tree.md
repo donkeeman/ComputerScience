@@ -16,6 +16,7 @@
 - 현재 노드, 부모 노드, 조부모 노드 이 3개를 오름차순으로 정렬 후, 중앙값을 가진 노드를 부모 및 black 노드로 만들고 나머지 두 개를 각각 자식 및 red 노드로 만들어 줌
 - black 노드의 개수가 바뀌는 것은 아니므로 **Black Depth에는 영향을 끼치지 않음**
 - 시간 복잡도는 **O(1)**
+
     ![image](https://user-images.githubusercontent.com/79434205/206439603-1dbfa4ec-f90b-415c-8ed6-8cdb92acfe4c.png)
 
 ## Recoloring
@@ -24,6 +25,7 @@
 - 부모 노드와 삼촌 노드를 black 노드로, 조부모 노드를 red 노드로 변경
 - 실행 후 상위에 Double Red가 또 발생할 수도 있음 -> **해결될 때까지** 거슬러 올라가면서 Recoloring **반복**
 - 시간 복잡도는 **O(log N)**
+
     ![image](https://user-images.githubusercontent.com/79434205/206461360-e04680dd-88b0-4af4-abe9-dfffe4960861.png)
 
 ## 연산
@@ -32,4 +34,5 @@
 - 요소 검색 ( **O(log N)** )
 
 ## 참고 사이트
+- https://www.geeksforgeeks.org/introduction-to-red-black-tree/
 - https://www.programiz.com/dsa/red-black-tree
