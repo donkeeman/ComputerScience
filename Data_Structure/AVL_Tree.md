@@ -21,13 +21,13 @@
 - 트리가 `<` 형태가 되었을 때
 - 오른쪽으로 꺾인 부분을 왼쪽으로 회전시켜서 트리를 `/` 형태로 만든 다음, RR과 동일한 과정을 거침
 
-    ![image](https://user-images.githubusercontent.com/79434205/206363880-ecc9d6ed-55c8-4d0f-9019-4b454bb50a9c.png)
+    ![image](https://user-images.githubusercontent.com/79434205/206401700-eaa8b7bc-1812-4c8f-8b53-4937c28f073a.png)
 
 ## RL (오른쪽-왼쪽 회전)
 - 트리가 `>` 형태가 되었을 때
 - 왼쪽으로 꺾인 부분을 오른쪽으로 회전시켜서 트리를 `\` 형태로 만든 다음, LL과 동일한 과정을 거침
 
-    ![image](https://user-images.githubusercontent.com/79434205/206401700-eaa8b7bc-1812-4c8f-8b53-4937c28f073a.png)
+    ![image](https://user-images.githubusercontent.com/79434205/206363880-ecc9d6ed-55c8-4d0f-9019-4b454bb50a9c.png)
 
 ## 연산
 - 요소 삽입 ( **O(log N)** )
