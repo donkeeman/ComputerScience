@@ -19,7 +19,7 @@
 - 처리해야 할 작업이 없다면 (콜 스택이 비면) 실행 가능한 작업 중 **가장 오래된 것**을 dequeue하여 처리
 - 마이크로태스크보다 **우선 순위 낮음**
 
-### 마이크로태스크 큐(Microtask Queue)
+## 마이크로태스크 큐(Microtask Queue)
 - `Promise callback`, `process.nextTick()` 등의 함수 저장
 - 큐에 있는 모든 작업을 처리할 때까지 수행
 - `Promise.then()`의 경우 `Promise`가 계속 실행되어 **콜백 실행이 끝난 후 함수가 끝나지만**, `await`의 경우 `async` 함수는 중단되고 다음 함수로 넘어가 버리므로 **콜백이 나중에 실행**됨
