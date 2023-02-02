@@ -13,21 +13,21 @@
 ### `call()`
 - 인자를 **나열**하는 방식으로 전달
 - 함수를 **즉시 실행**
-```
+```javascript
 function.call( this로 지정할 객체, 인자 1, 인자 2, ... );
 ```
 
 ### `apply()`
 - 인자를 **배열**으로 전달
 - 함수를 **즉시 실행**
-```
+```javascript
 function.apply( this로 지정할 객체, [인자 1, 인자 2, ...] );
 ```
 
 ### `bind()`
 - 함수에 인자를 전달 후 그 **함수를 반환**
 - 함수를 즉시 실행하지 않기 때문에 **나중에 실행할 수 있음**
-```
+```javascript
 const newFunction = function.bind( this로 지정할 객체, 인자 1, 인자 2, ...);
 newFunction();
 
@@ -50,7 +50,6 @@ newFunction(인자 3, 인자 4, ...);
 ## 이벤트 핸들러에서 호출 시
 - **이벤트가 연결된 객체**를 가리킴
 - HTML에서의 이벤트 핸들러 호출은 **해당 HTML 요소**를 가리킴
-
 
 ## 참고 사이트
 - https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this
