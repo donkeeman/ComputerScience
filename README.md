@@ -48,5 +48,6 @@
 -   [화살표 함수](./JavaScript/Arrow_Function.md)
 -   [this](./JavaScript/This.md)
 -   [이벤트 루프](./JavaScript/Event_Loop.md)
+-   [이벤트 핸들링](./JavaScript/Event_Handling.md)
 -   [이벤트 버블링/캡처링/위임](./JavaScript/Event_Bubbling_Capturing_Delegation.md)
 -   [명령형/선언형 프로그래밍](./JavaScript/Imperative_Declarative_Programming.md)
