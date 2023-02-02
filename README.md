@@ -41,11 +41,12 @@
 
 ### 자바스크립트
 
+-   [ECMAScript](./JavaScript/ECMAScript.md)
+-   [실행 문맥](./JavaScript/Execution_Context.md)
 -   [클로저](./JavaScript/Closure.md)
 -   [호이스팅](./JavaScript/Hoisting.md)
 -   [화살표 함수](./JavaScript/Arrow_Function.md)
 -   [this](./JavaScript/This.md)
--   [ECMAScript](./JavaScript/ECMAScript.md)
 -   [이벤트 루프](./JavaScript/Event_Loop.md)
 -   [이벤트 버블링/캡처링/위임](./JavaScript/Event_Bubbling_Capturing_Delegation.md)
 -   [명령형/선언형 프로그래밍](./JavaScript/Imperative_Declarative_Programming.md)
