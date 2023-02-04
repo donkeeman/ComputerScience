@@ -51,5 +51,5 @@
 -   [이벤트 핸들링](./JavaScript/Event_Handling.md)
 -   [이벤트 버블링/캡처링/위임](./JavaScript/Event_Bubbling_Capturing_Delegation.md)
 -   [명령형/선언형 프로그래밍](./JavaScript/Imperative_Declarative_Programming.md)
-
 -   [이터레이터/이터러블 객체](./JavaScript/Iterator_Iterable.md)
+-   [제너레이터](./JavaScript/Generator.md)
