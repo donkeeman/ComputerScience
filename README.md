@@ -53,3 +53,4 @@
 -   [명령형/선언형 프로그래밍](./JavaScript/Imperative_Declarative_Programming.md)
 -   [이터레이터/이터러블 객체](./JavaScript/Iterator_Iterable.md)
 -   [제너레이터](./JavaScript/Generator.md)
+-   [쿠키/웹 스토리지](./JavaScript/Cookie_Web_Storage.md)
