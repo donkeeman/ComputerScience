@@ -28,6 +28,8 @@
 -   [입출력 (I/O)](./Operating_System/Input_Output.md)
 -   [인터럽트](./Operating_System/Interrupt.md)
 -   [교착 상태](./Operating_System/Deadlock.md)
+-   [프로세스](./Operating_System/Process.md)
+<!-- -   [스레드](./Operating_System/Thread.md) -->
 
 ### 자료 구조
 
@@ -54,3 +56,5 @@
 -   [이터레이터/이터러블 객체](./JavaScript/Iterator_Iterable.md)
 -   [제너레이터](./JavaScript/Generator.md)
 -   [쿠키/웹 스토리지](./JavaScript/Cookie_Web_Storage.md)
+<!-- -   [IndexedDB](./JavaScript/IndexedDB.md)
+-   [클라이언트 사이드 렌더링/서버 사이드 렌더링](./JavaScript/CSR_SSR.md) -->
