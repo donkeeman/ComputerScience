@@ -56,5 +56,5 @@
 -   [이터레이터/이터러블 객체](./JavaScript/Iterator_Iterable.md)
 -   [제너레이터](./JavaScript/Generator.md)
 -   [쿠키/웹 스토리지](./JavaScript/Cookie_Web_Storage.md)
-<!-- -   [IndexedDB](./JavaScript/IndexedDB.md)
--   [클라이언트 사이드 렌더링/서버 사이드 렌더링](./JavaScript/CSR_SSR.md) -->
+-   [클라이언트 사이드 렌더링/서버 사이드 렌더링/정적 사이트 생성](./JavaScript/CSR_SSR_SSG.md)
+<!-- -   [IndexedDB](./JavaScript/IndexedDB.md) -->
