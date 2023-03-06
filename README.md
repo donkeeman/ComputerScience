@@ -18,7 +18,7 @@
 -   [HTTP와 HTTPS](./Network/HTTP_HTTPS.md)
 -   [월드 와이드 웹](./Network/World_Wide_Web.md)
 -   [웹의 동작 방식](./Network/How_the_Web_Works.md)
--   [CORS](./Network/CORS.md)
+-   [SOP/CORS](./Network/SOP_CORS.md)
 -   [REST API](./Network/REST_API.md)
 
 ### 운영체제 (OS)
