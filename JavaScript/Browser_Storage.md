@@ -21,7 +21,7 @@
 - **필요할 때**만 데이터를 꺼내 쓸 수 있음
 - **클라이언트에서만 쓰이는 데이터**를 위해 사용
 - 쿠키보다 최대 저장 용량이 큼 (보통 **5MB**, 브라우저마다 다름)
-- **도메인이 다르면** (프로토콜, 호스트, 포트 번호 중 하나라도 다르면) 데이터에 **접근할 수 없음**
+- **도메인이 다르면** (프로토콜, 호스트, 포트 번호 중 하나라도 다르면) 데이터에 **접근할 수 없음** (**동일 출처 정책** 적용)
 
 ## 로컬 스토리지 (Local Storage)
 - 저장된 데이터는 삭제하지 않는 이상 **새로고침**, **브라우저 종료 및 재시작** 시에도 **유지됨**
@@ -35,6 +35,35 @@
 - 같은 탭이어도 **도메인이 달라지면 새로운 세션 스토리지가 생성**됨
 - **브라우저** 또는 **자바스크립트** (`window.sessionStorage`) 로 **접근**할 수 있음
 
+# IndexedDB API
+- 관계형 데이터베이스의 형태로 브라우저에 데이터를 저장
+- 저장된 데이터는 삭제하지 않는 이상 **새로고침**, **브라우저 종료 및 재시작** 시에도 **유지됨**
+- 웹 스토리지보다 용량이 큼 -> **대용량**의 **구조화**된 데이터에 적합
+- **도메인이 다르면** (프로토콜, 호스트, 포트 번호 중 하나라도 다르면) 데이터에 **접근할 수 없음** (**동일 출처 정책** 적용)
+- 문자열만 저장할 수 있는 웹 스토리지와는 달리 **자료형의 제한이 없음**
+- 데이터베이스에 저장되는 객체(**ObjectStore**)마다 식별을 위해 중복되지 않는 **단일 키** (**Unique Key**) 가 필요함
+- 트랜잭션을 통해 CRUD **요청**을 보내고 그에 대한 응답을 받는 형태
+-  `request.onSuccess`, `request.onError`를 이용하여 요청이 성공했을 때 / 실패했을 때 처리를 각각 할 수 있음 -> 이벤트 위임을 통해 데이터베이스 단위로 전역 처리도 가능
+- **비동기**적으로 실행
+
+## 과정
+### 1. 데이터베이스 생성
+    - `indexedDB.open(데이터베이스 이름, 버전)` 메서드로 데이터베이스 생성
+    - 브라우저는 여러 개의 데이터베이스를 가질 수 있고, 각 데이터베이스는 여러 개의 ObjectStore를 가질 수 있음
+    - 데이터베이스의 ObjectStore를 수정하려면 데이터베이스의 버전도 수정해야 함
+
+2. ObjectStore 접근
+    - ObjectStore 추가, 수정, 삭제 등을 위해서는 트랜잭션으로 해당 ObjectStore에 접근해야 함
+    - `database.transaction([ObjectStore 이름], 권한)` 으로 트랜잭션 생성
+    - 권한은 `readonly` (읽기 전용) 와 `readwrite` (읽기/쓰기) 가 있고 단순 데이터 접근 외에는 `readwrite` 가 필요
+
+- `indexedDB.deleteDB()` 메서드로 데이터베이스 삭제
+
+- `createObjectStore()` 메서드로 데이터 객체 추가
+- `deleteObjectStore()` 메서드로 데이터 객체 삭제
+- 키 / 인덱스를 이용하여 데이터를 검색할 수 있음 (쿼리문도 가능)
+- 가져오고자 하는 데이터가 사용 가능한 메모리 용량보다 클 경우, `cursor` 를 이용하여 가져올 수 있음 -> 메모리 절약
+
 ## 참고 사이트
 - https://developer.mozilla.org/ko/docs/Web/HTTP/Cookies
 - https://ko.javascript.info/cookie
@@ -42,3 +71,7 @@
 - https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage
 - https://developer.mozilla.org/ko/docs/Web/API/Window/sessionStorage
 - https://ko.javascript.info/localstorage
+- https://developer.mozilla.org/ko/docs/Web/API/IndexedDB_API
+- https://web.dev/indexeddb/
+- https://javascript.info/indexeddb
+- https://developer.mozilla.org/ko/docs/Web/API/IndexedDB_API/Using_IndexedDB

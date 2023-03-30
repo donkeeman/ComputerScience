@@ -57,9 +57,9 @@
 -   [명령형/선언형 프로그래밍](./JavaScript/Imperative_Declarative_Programming.md)
 -   [이터레이터/이터러블 객체](./JavaScript/Iterator_Iterable.md)
 -   [제너레이터](./JavaScript/Generator.md)
--   [쿠키/웹 스토리지](./JavaScript/Cookie_Web_Storage.md)
+-   [브라우저 저장소](./JavaScript/Browser_Storage.md)
 -   [클라이언트 사이드 렌더링/서버 사이드 렌더링/정적 사이트 생성](./JavaScript/CSR_SSR_SSG.md)
-<!-- -   [IndexedDB](./JavaScript/IndexedDB.md) -->
 
 ### 리액트
-- [컴포넌트의 생명 주기](./React/Component_Lifecycle.md)
+
+-   [컴포넌트의 생명 주기](./React/Component_Lifecycle.md)
